@@ -1,0 +1,8 @@
+
+
+.pageDiv{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
