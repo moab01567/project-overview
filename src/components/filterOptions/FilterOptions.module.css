@@ -1,0 +1,37 @@
+
+
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: #ffff solid 2px;
+    border-radius: 10px;
+}
+.divChips{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.chip{
+    margin: 2px;
+    padding: 10px;
+    background: lightgray;
+    border: solid 2px lightgray;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.chip:hover{
+    background: gray;
+    border: solid 2px gray;
+}
+.divChipsSelected{
+    background: gray;
+    border: solid 2px gray;
+}

@@ -1,8 +1,27 @@
 
 
 .pageDiv{
-    display: grid;
-    margin: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.filterDiv{
+    width: 95%;
+    max-width: 1200px;
+    margin: 10px;
+}
+.lineHr{
+    margin: 10px;
+    width: 95%;
+    max-width: 1200px;
+    border: solid gray 1px;
+    border-radius: 10px;
+}
+.projectDiv{
+    margin: 10px;
+    width: 95%;
+    max-width: 1200px;
 }
