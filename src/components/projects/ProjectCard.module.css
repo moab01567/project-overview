@@ -1,0 +1,47 @@
+.cardDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: solid white 5px;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.cardDivItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itemDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0  10px rgba(0,0,0,0.2);
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+
+}
+
+
+.linkButton{
+    background: #1E3A8A;
+    border:solid #1E3A8A 10px;
+    border-radius: 20px;
+    color: #ffff;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.linkButton:hover{
+    background: #3B82F6;
+    border:solid #3B82F6 10px;
+}

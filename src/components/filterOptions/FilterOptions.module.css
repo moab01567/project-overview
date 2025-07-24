@@ -19,19 +19,21 @@
 }
 
 .chip{
+    color: #ffff;
     margin: 2px;
     padding: 10px;
-    background: lightgray;
-    border: solid 2px lightgray;
+    border: solid 2px  #1E3A8A;
     border-radius: 40px;
     cursor: pointer;
+    background: #1E3A8A;
+
 }
 
 .chip:hover{
-    background: gray;
-    border: solid 2px gray;
+    background: #3B82F6;
+    border: solid 2px #3B82F6;
 }
 .divChipsSelected{
-    background: gray;
-    border: solid 2px gray;
+    background: #3B82F6;
+    border: solid 2px  #3B82F6;
 }

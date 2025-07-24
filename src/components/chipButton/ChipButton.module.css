@@ -1,0 +1,22 @@
+
+.chip{
+    background: #1E3A8A;
+    border:solid #1E3A8A 10px;
+    border-radius: 20px;
+    color: #ffff;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.chip:hover{
+    background: #3B82F6;
+    border:solid #3B82F6 10px;
+}
+.chipsSelected{
+    background: #3B82F6;
+    border: solid 2px  #3B82F6;
+    border-radius: 20px;
+    color: #ffff;
+    cursor: pointer;
+    margin: 5px;
+}
