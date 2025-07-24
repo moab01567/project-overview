@@ -14,7 +14,7 @@ export function ProjectsOverview(){
     const [selectedTechnologies, setSelectedTechnologies] = useState<ProjectData.Technologies[]>([])
 
     return <div className={css.pageDiv}>
-        <Header headerTile={"Projects"}/>
+        <Header headerTile={"Projects Overview"}/>
         <div className={css.filterDiv}>
             <FilterOptions selectedTechnologies={selectedTechnologies}
                            setSelectedTechnologies={setSelectedTechnologies}/>
