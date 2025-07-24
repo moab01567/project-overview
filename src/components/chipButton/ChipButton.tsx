@@ -4,6 +4,7 @@ import css from "./ChipButton.module.css"
 interface Props{
     value:string,
     selected:boolean
+    
 }
 
 

@@ -38,12 +38,11 @@ export function ProjectCard({project}:Props){
                 </div>
                 <div className={css.itemDiv}>
                     <h4>Technologies Used</h4>
-                    |
-                    {project.technologiesUsed.map(technology =>
-                        <>
-                            {" "}{technology} |
-                        </>
-                    )}
+                    <div className={css.techUsedDiv}>
+                        {project.technologiesUsed.map(technology =>
+                            <ChipButton value={technology} selected={false}/>
+                        )}
+                    </div>
                 </div>
             </div>
         </div>
