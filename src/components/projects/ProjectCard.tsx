@@ -14,6 +14,7 @@ export function ProjectCard({project}:Props){
             </div>
             <div className={css.cardDivItems}>
                 <div className={css.itemDiv}>
+                    <h4>Description</h4>
                     <p>{project.description}</p>
                 </div>
 
