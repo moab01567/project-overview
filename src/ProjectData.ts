@@ -57,7 +57,7 @@ export const  projects:Project[] = [
         ],
         githubUrls:[
             "https://github.com/moab01567/moab01567-soscial-elite-react-express"],
-        liveUrl:"https://elite.hei.wtf"
+        liveUrl:"https://elite.wrkspace.dev"
     },
     {
         projectName:"Events old (Social elite news)",
@@ -73,7 +73,7 @@ export const  projects:Project[] = [
         ],
         githubUrls:[
             "https://github.com/moab01567/React-express-typescript-events"],
-        liveUrl:"https://event.hei.wtf"
+        liveUrl:"https://event.wrkspace.dev"
     },
     {
         projectName:"C Exam, Grade == A 😁",
