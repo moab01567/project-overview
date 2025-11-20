@@ -30,3 +30,27 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/project-overview:latest
+
+  deploy:
+    name: Deploy image
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: SSH commands using password
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd infra 
+            docker compose down project-overview
+            docker compose up project-overview -d 
+            
+
+
+
+
+
+
