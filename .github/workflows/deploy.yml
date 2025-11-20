@@ -45,7 +45,8 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd infra 
-            docker compose down project-overview
+            docker compose pull project-overview
+            docker compose stop project-overview
             docker compose up project-overview -d 
             
 
