@@ -41,7 +41,7 @@ export const  projects:Project[] = [
         githubUrls:[
             "https://github.com/moab01567/gold-system-backend",
             "https://github.com/moab01567/gold-system-frontend"],
-        liveUrl:"https://iraq.rizamo.com"
+        liveUrl:"https://iraq.wrkspace.dev"
     },
     {
         projectName:"Social elite news",
